@@ -28,7 +28,8 @@ flutter channel stable
 flutter doctor
 flutter pub get
 flutter pub run build_runner build
-flutter build apk --release --dart-define=API_KEY=$API_KEY --dart-define=FLAVOR=$FLAVOR --flavor $FLAVOR -t $target
+#flutter build apk --release --dart-define=API_KEY=$API_KEY --dart-define=FLAVOR=$FLAVOR --flavor $FLAVOR -t $target
+flutter build apk --release
 
 # change apk file name
 mv build/app/outputs/flutter-apk/app-$FLAVOR-release.apk build/app/outputs/flutter-apk/wfm.apk
