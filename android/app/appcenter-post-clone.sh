@@ -32,7 +32,7 @@ flutter pub run build_runner build
 flutter build apk --release
 
 # change apk file name
-mv build/app/outputs/flutter-apk/app-$FLAVOR-release.apk build/app/outputs/flutter-apk/wfm.apk
+#mv build/app/outputs/flutter-apk/app-$FLAVOR-release.apk build/app/outputs/flutter-apk/wfm.apk
 
 # copy the APK where AppCenter will find it
-mkdir -p android/app/build/outputs/apk/; mv build/app/outputs/flutter-apk/wfm.apk $_
+#mkdir -p android/app/build/outputs/apk/; mv build/app/outputs/flutter-apk/wfm.apk $_
